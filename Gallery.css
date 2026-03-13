@@ -1,0 +1,59 @@
+
+body{
+    background-color: cadetblue;
+
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+.boxes > div {
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+  }
+
+.boxes > div.slideleft:hover {
+    transform: translate(-50px, 0);
+  }
+
+#outerspace {
+    position: relative;
+    height: 400px;
+    background: #0c0440 ;
+    color: #fff;
+  }
+  div.rocket {
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    transition: 1s ease-in;
+  }
+  div.rocket > div {
+    width: 300px;
+    height: 300px;
+    background: no-repeat;
+    transition: 3s ease-in-out;
+  }
+
+  /* hover final state */
+
+  #outerspace:hover > div.rocket {
+    transform: translate(-200%,0);
+  }
+/*
+  #outerspace:hover > div.rocket > div {
+    transform: rotate(70deg);
+  }
+*/
+
+    /* transform: translate(-50px, 0); 
+left number -# left, +# ;right number -# up, +# down*/
+
+
+
