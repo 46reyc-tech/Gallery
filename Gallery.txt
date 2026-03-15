@@ -1,7 +1,0 @@
-display stock photos in a powerpoint style showcase (think layering photos)
-
-use bookmarked site to insert translating photo slides
-
-hover over a background, all images start to slide left. And description of works
-
-Insert static list of artworks with photo and info
